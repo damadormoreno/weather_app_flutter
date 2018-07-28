@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
             child: new ForecastAppBar(),
           ),
           new Transform(
-            transform: new Matrix4.diagonal3Values(
+            transform: new Matrix4.translationValues(
               125.0 * (1.0 - openableController.percentOpen),
               0.0,
               0.0,
